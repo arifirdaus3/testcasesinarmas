@@ -20,13 +20,17 @@ Return drivers list. You can also provide driver_list as query to get specific d
 **You need to provide Authentication Header to access this route ["admin"].**
 #### PUT "/activate" 
 Change Driver status from Off to Active.
-**You need to provide Authentication Header to access this route ["driver"]. You also need to provide body data as JSON eg: {"driver_id": 1}**
+**You need to provide Authentication Header to access this route ["driver"]. 
+You also need to provide body data as JSON eg: {"driver_id": 1}**
 #### PUT "/deactivate" 
 Change Driver status from Active to Off.
-**You need to provide Authentication Header to access this route ["driver"]. You also need to provide body data as JSON eg: {"driver_id": 1}**
+**You need to provide Authentication Header to access this route ["driver"]. 
+You also need to provide body data as JSON eg: {"driver_id": 1}**
 #### PUT "/assign" 
 Find nearest Driver and change Driver status to OnJob.
-**You need to provide Authentication Header to access this route ["user"]. You also need to provide body data as JSON eg: {"lat": 3.15, "lon": 101.00}**
+**You need to provide Authentication Header to access this route ["user"]. 
+You also need to provide body data as JSON eg: {"lat": 3.15, "lon": 101.00}**
 #### PUT "/deassign" 
 Change Driver status from OnJob to Active.
-**You need to provide Authentication Header to access this route ["driver", "admin"]. You also need to provide body data as JSON eg: {"driver_id": 1}**
+**You need to provide Authentication Header to access this route ["driver", "admin"]. 
+You also need to provide body data as JSON eg: {"driver_id": 1}**
