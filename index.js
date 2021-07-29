@@ -275,6 +275,6 @@ app.use((req, res) => {
 })
 
 
-app.listen(processs.env.PORT || 3000, () => {
+app.listen(process.env.PORT || 3000, () => {
     console.log('connected')
 })
